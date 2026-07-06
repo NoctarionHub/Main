@@ -1,13 +1,13 @@
 -- ============================================
--- LOADER HYBRID - Simple tapi Modular
+-- Ngapain Bang
 -- ============================================
 
-local BASE_URL = "https://raw.githubusercontent.com/username/repo-name/main/"
+local BASE_URL = "https://raw.githubusercontent.com/NoctarionHub/Main/refs/heads/main/"
 
 local Games = {
     [83569851223739] = {
         name = "+1 Speed Evolve",
-        main = "games/blox-fruits/main.lua",
+        main = "Games/blox-fruits/main.lua",
     },
 }
 
