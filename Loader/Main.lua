@@ -7,7 +7,7 @@ local BASE_URL = "https://nhmain.vercel.app/"
 local Games = {
     [83569851223739] = {
         name = "+1 Speed Evolve",
-        main = "Games/1-speed-evo/main.lua",
+        main = "Games/1_speed_evo/main.lua",
     },
 }
 
