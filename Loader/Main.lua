@@ -2,7 +2,7 @@
 -- Ngapain Bang
 -- ============================================
 
-local BASE_URL = "https://raw.githubusercontent.com/NoctarionHub/Main/refs/heads/main/"
+local BASE_URL = "https://nhmain.vercel.app/"
 
 local Games = {
     [83569851223739] = {
