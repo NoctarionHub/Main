@@ -2,7 +2,7 @@
 -- Ngapain Bang
 -- ============================================
 
-local GAME_URL = "https://nhmain.vercel.app/list.lua"
+local GAME_URL = "https://nhmain.vercel.app/Loader/list.lua"
 
 local list_content = game:HttpGet(GAME_URL)
 
