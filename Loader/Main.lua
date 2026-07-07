@@ -9,7 +9,7 @@ if not list_content then
 end
 
 local success, Games = pcall(function()
-    return loadstring(gamelist_content)()
+    return loadstring(list_content)()
 end)
 
 if not success or type(Games) ~= "table" then
