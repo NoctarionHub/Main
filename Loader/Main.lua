@@ -2,24 +2,35 @@
 -- Ngapain Bang
 -- ============================================
 
-local BASE_URL = "https://nhmain.vercel.app/"
+local GAME_URL = "https://nhmain.vercel.app/list.lua"
 
-local Games = {
-    [83569851223739] = {
-        name = "+1 Speed Evolve",
-        main = "Games/speed_evo/main.lua",
-    },
-}
+local list_content = game:HttpGet(GAME_URL)
 
-local GameID = game.PlaceId
-local config = Games[GameID]
-
-if not config then
-    game.Players.LocalPlayer:Kick("Game not supported yet!")
+if not list_content then
+    game.Players.LocalPlayer:Kick("❌ Failed try again!")
     return
 end
 
-print("🚀 Loading: " .. config.name)
+local success, Games = pcall(function()
+    return loadstring(list_content)()
+end)
 
--- Load main
-loadstring(game:HttpGet(BASE_URL .. config.main))()
+if not success or type(Games) ~= "table" then
+    game.Players.LocalPlayer:Kick("❌ Report To Noctarion!")
+    return
+end
+
+local GameID = game.PlaceId
+local found = false
+
+for PlaceID, ScriptURL in pairs(Games) do
+    if tonumber(PlaceID) == GameID then
+        found = true
+        loadstring(game:HttpGet(ScriptURL))()
+        break
+    end
+end
+
+if not found then
+    game.Players.LocalPlayer:Kick("❌ Game not supported yet!")
+end
