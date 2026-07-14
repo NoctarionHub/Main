@@ -16,9 +16,25 @@ if not success or type(Games) ~= "table" then
     return 
 end
 
-for PlaceID, Execute in pairs(Games) do
-    if tonumber(PlaceID) == game.PlaceId then
-        loadstring(game:HttpGet(Execute))()
-        break 
+
+local currentPlaceId = game.PlaceId
+local foundUrl = nil
+local foundName = nil
+
+
+for gameName, gameData in pairs(Games) do
+    for _, id in ipairs(gameData.ids) do
+        if id == currentPlaceId then
+            foundUrl = gameData.url
+            foundName = gameName
+            break
+        end
     end
+    if foundUrl then break end
+end
+
+if foundUrl then
+    loadstring(game:HttpGet(foundUrl))()
+else
+    game.Players.LocalPlayer:Kick("❌ Game Not Supported Yet!")
 end
