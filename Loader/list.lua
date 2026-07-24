@@ -27,6 +27,12 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/anime_univ/main.lua"
     },
+    chick_farm = {
+        ids = {
+            137233438285284,
+        },
+        url = "https://nhmain.vercel.app/Games/chick_farm/main.lua"
+    },
 }
 
 -- Fungsi lookup otomatis
