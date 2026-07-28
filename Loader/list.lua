@@ -34,6 +34,12 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/chick_farm/main.lua"
     },
+    butterfly_lgnd = {
+        ids = {
+            102050885098531,
+        },
+        url = "https://nhmain.vercel.app/Games/butterfly_lgnd/main.lua"
+    },
 }
 
 -- Fungsi lookup otomatis
