@@ -40,6 +40,12 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/butterfly_lgnd/main.lua"
     },
+    watch_money = {
+        ids = {
+            74665037604179,
+        },
+        url = "https://nhmain.vercel.app/Games/watch_money/main.lua"
+    },
 }
 
 -- Fungsi lookup otomatis
