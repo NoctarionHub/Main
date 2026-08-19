@@ -54,6 +54,13 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/anime_capture/main.lua"
     },
+    fish_junk = {
+        ids = {
+            132010220154773,
+            74347901984127,
+        },
+        url = "https://nhmain.vercel.app/Games/fish_junk/main.lua"
+    },
 }
 
 -- Fungsi lookup otomatis
