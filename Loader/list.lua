@@ -61,6 +61,7 @@ local Games = {
             132010220154773,
             74347901984127,
             107424566725243,
+            140598100225279, 
         },
         url = "https://nhmain.vercel.app/Games/fish_junk/main.lua"
     },
