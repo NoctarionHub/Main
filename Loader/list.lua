@@ -65,6 +65,12 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/fish_junk/main.lua"
     },
+    muscle_train = {
+        ids = {
+            97632616326634,
+        },
+        url = "https://nhmain.vercel.app/Games/muscle_train/main.lua"
+    },
 }
 
 -- Fungsi lookup otomatis
