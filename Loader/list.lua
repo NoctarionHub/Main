@@ -26,29 +26,11 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/lucky_dumplings/main.lua"
     },
-    anime_univ = {
-        ids = {
-            95992966043247,
-        },
-        url = "https://nhmain.vercel.app/Games/anime_univ/main.lua"
-    },
     chick_farm = {
         ids = {
             137233438285284,
         },
         url = "https://nhmain.vercel.app/Games/chick_farm/main.lua"
-    },
-    butterfly_lgnd = {
-        ids = {
-            102050885098531,
-        },
-        url = "https://nhmain.vercel.app/Games/butterfly_lgnd/main.lua"
-    },
-    watch_money = {
-        ids = {
-            74665037604179,
-        },
-        url = "https://nhmain.vercel.app/Games/watch_money/main.lua"
     },
     anime_capture = {
         ids = {
