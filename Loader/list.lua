@@ -17,6 +17,7 @@ local Games = {
             100875131717601,
             81335362752013, 
             115468445635568,
+            79341539934468,
         },
         url = "https://nhmain.vercel.app/Games/throw_coin/main.lua"
     },
