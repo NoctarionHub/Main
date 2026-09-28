@@ -57,7 +57,6 @@ local Games = {
     },
 }
 
--- Fungsi lookup otomatis
 local function getGameURL(placeId)
     for gameName, gameData in pairs(Games) do
         for _, id in ipairs(gameData.ids) do
