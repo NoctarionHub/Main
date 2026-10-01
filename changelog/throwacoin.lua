@@ -1,6 +1,6 @@
 return {
     {
-        Version = "v1.2",
+        Version = "version 1.2",
         Date = "2 Okt 2026",
         Changes = {
             { Type = "Added", Text = "Auto Claim Quest" },
