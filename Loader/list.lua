@@ -55,6 +55,12 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/muscle_train/main.lua"
     },
+    stone_skip = {
+        ids = {
+            111543903102439,
+        },
+        url = "https://nhmain.vercel.app/Games/stone_skip/main.lua"
+    },
 }
 
 local function getGameURL(placeId)
