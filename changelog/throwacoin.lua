@@ -1,7 +1,7 @@
 return {
     {
         Version = "version 1.2",
-        Date = "2 Okt 2026",
+        Date = "2 Oct 2026",
         Changes = {
             { Type = "Added", Text = "Auto Claim Quest" },
             { Type = "Added", Text = "Auto Redeem Code" },
