@@ -3,6 +3,7 @@ return {
         Version = "Version 1.1",
         Date = "11 Oct 2026",
         Changes = {
+            { Type = "Fixed", Text = "Auto Claim Gifts" },
             { Type = "Fixed", Text = "Optimization" },
         },
     },
