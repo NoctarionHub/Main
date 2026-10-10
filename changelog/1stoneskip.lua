@@ -1,4 +1,11 @@
 return {
+         {
+        Version = "Version 1.1",
+        Date = "11 Oct 2026",
+        Changes = {
+            { Type = "Fixed", Text = "Optimization" },
+        },
+    },
     {
         Version = "Release",
         Date = "10 Oct 2026",
@@ -14,13 +21,6 @@ return {
             { Type = "Added", Text = "Auto Buy Best Trail" },
             { Type = "Added", Text = "Auto Buy Best Stone" },
             { Type = "Added", Text = "Auto Delete Pets" },
-        },
-    },
-     {
-        Version = "Version 1.1",
-        Date = "11 Oct 2026",
-        Changes = {
-            { Type = "Fixed", Text = "Optimization" },
         },
     },
 }
