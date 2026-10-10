@@ -16,4 +16,11 @@ return {
             { Type = "Added", Text = "Auto Delete Pets" },
         },
     },
+     {
+        Version = "Version 1.1",
+        Date = "11 Oct 2026",
+        Changes = {
+            { Type = "Fixed", Text = "Optimization" },
+        },
+    },
 }
