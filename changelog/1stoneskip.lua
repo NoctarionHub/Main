@@ -1,5 +1,16 @@
 return {
          {
+        Version = "Version 1.2",
+        Date = "13 Oct 2026",
+        Changes = {
+            { Type = "Added", Text = "Feedback Section" },
+            { Type = "Fixed", Text = "Auto Rebirth" },
+            { Type = "Fixed", Text = "Auto Fuse Pets" },
+            { Type = "Fixed", Text = "Auto Claim Gifts" },
+            { Type = "Fixed", Text = "Optimization" },
+        },
+    },
+         {
         Version = "Version 1.1",
         Date = "11 Oct 2026",
         Changes = {
