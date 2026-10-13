@@ -1,5 +1,12 @@
 return {
          {
+        Version = "Version 1.3",
+        Date = "13 Oct 2026",
+        Changes = {
+            { Type = "Fixed", Text = "Not fully load in delta" },
+        },
+    },
+         {
         Version = "Version 1.2",
         Date = "13 Oct 2026",
         Changes = {
