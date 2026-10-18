@@ -1,5 +1,14 @@
 return {
          {
+        Version = "Version 1.4",
+        Date = "19 Oct 2026",
+        Changes = {
+            { Type = "Added", Text = "Auto Claim Pass Halloween" },
+            { Type = "Added", Text = "Auto Claim Ticket Halloween" },
+            { Type = "Added", Text = "Auto Hatch Halloween Egg" },
+        },
+    },
+         {
         Version = "Version 1.3",
         Date = "13 Oct 2026",
         Changes = {
