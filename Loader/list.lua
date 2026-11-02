@@ -35,27 +35,6 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/chick_farm/main.lua"
     },
-    anime_capture = {
-        ids = {
-            94717504417144,
-        },
-        url = "https://nhmain.vercel.app/Games/anime_capture/main.lua"
-    },
-    fish_junk = {
-        ids = {
-            132010220154773,
-            74347901984127,
-            107424566725243,
-            140598100225279, 
-        },
-        url = "https://nhmain.vercel.app/Games/fish_junk/main.lua"
-    },
-    muscle_train = {
-        ids = {
-            97632616326634,
-        },
-        url = "https://nhmain.vercel.app/Games/muscle_train/main.lua"
-    },
     stone_skip = {
         ids = {
             111543903102439,
