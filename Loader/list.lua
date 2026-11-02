@@ -62,6 +62,12 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/stone_skip/main.lua"
     },
+    food_animal = {
+        ids = {
+            120219252362013,
+        },
+        url = "https://nhmain.vercel.app/Games/food_animal/main.lua"
+    },
 }
 
 local function getGameURL(placeId)
