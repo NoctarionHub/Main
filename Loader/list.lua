@@ -7,6 +7,7 @@ local Games = {
             140128707775918,
             140544451091543,
             139473336308623,
+            112667591128641,
         },
         url = "https://nhmain.vercel.app/Games/speed_evo/main.lua"
     },
