@@ -1,5 +1,14 @@
 return {
     {
+        Version = "version 1.1",
+        Date = "8 Nov 2026",
+        Changes = {
+            { Type = "Fixed", Text = "Improve Performance (Thanks For The Feedback)" },
+            { Type = "Fixed", Text = "Now Anti-AFK Work In This Game" },
+            { Type = "Added", Text = "Hide Other Animals" },
+        },
+    },
+    {
         Version = "Release",
         Date = "3 Nov 2026",
         Changes = {
