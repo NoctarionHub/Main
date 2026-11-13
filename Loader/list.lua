@@ -43,6 +43,12 @@ local Games = {
         },
         url = "https://nhmain.vercel.app/Games/food_animal/main.lua"
     },
+    anime_dice = {
+        ids = {
+            113290951185459,
+        },
+        url = "https://nhmain.vercel.app/Games/anime_dice/main.lua"
+    },
 }
 
 local function getGameURL(placeId)
