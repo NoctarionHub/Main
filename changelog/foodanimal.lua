@@ -1,5 +1,18 @@
 return {
     {
+        Version = "version 1.2",
+        Date = "16 Nov 2026",
+        Changes = {
+            { Type = "Added", Text = "Auto Cycle" },
+            { Type = "Added", Text = "Auto Sell By Income" },
+            { Type = "Added", Text = "Webhook" },
+            { Type = "Added", Text = "Log Recent Catches" },
+            { Type = "Added", Text = "Black Screen" },
+            { Type = "Added", Text = "No Texture" },
+            { Type = "Fixed", Text = "Improve Hide Other Animals" },
+        },
+    },
+    {
         Version = "version 1.1",
         Date = "8 Nov 2026",
         Changes = {
