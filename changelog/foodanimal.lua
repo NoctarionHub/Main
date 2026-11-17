@@ -1,5 +1,12 @@
 return {
     {
+        Version = "version 1.3",
+        Date = "17 Nov 2026",
+        Changes = {
+            { Type = "Fixed", Text = "Auto Sell By Income" },
+        },
+    },
+    {
         Version = "version 1.2",
         Date = "16 Nov 2026",
         Changes = {
