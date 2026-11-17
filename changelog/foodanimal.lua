@@ -1,5 +1,12 @@
 return {
     {
+        Version = "version 1.4",
+        Date = "18 Nov 2026",
+        Changes = {
+            { Type = "Fixed", Text = "Throw Amount In Auto Cycle" },
+        },
+    },
+    {
         Version = "version 1.3",
         Date = "17 Nov 2026",
         Changes = {
