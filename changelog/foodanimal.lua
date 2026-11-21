@@ -1,5 +1,16 @@
 return {
     {
+        Version = "version 1.5",
+        Date = "21 Nov 2026",
+        Changes = {
+            { Type = "Added", Text = "Thanksgiving Event" },
+            { Type = "Added", Text = "Auto Cook" },
+            { Type = "Added", Text = "Auto Claim Cheft Reward" },
+            { Type = "Added", Text = "Auto Claim Gobbler" },
+            { Type = "Fixed", Text = "Auto Cycle" },
+        },
+    },
+    {
         Version = "version 1.4",
         Date = "18 Nov 2026",
         Changes = {
