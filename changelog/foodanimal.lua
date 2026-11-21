@@ -1,7 +1,7 @@
 return {
     {
         Version = "version 1.5",
-        Date = "21 Nov 2026",
+        Date = "22 Nov 2026",
         Changes = {
             { Type = "Added", Text = "Thanksgiving Event" },
             { Type = "Added", Text = "Auto Cook" },
