@@ -5,6 +5,7 @@ return {
         Changes = {
             { Type = "Added", Text = "Deep Freeze Event" },
             { Type = "Added", Text = "Advent Calendar Event" },
+            { Type = "Added", Text = "Auto Place Pieces" },
             { Type = "Added", Text = "Auto Claim Ice Monster" },
             { Type = "Added", Text = "Auto Claim Advent Calendar" },
             { Type = "Added", Text = "Auto Equip Reward Advent Calendar" },
