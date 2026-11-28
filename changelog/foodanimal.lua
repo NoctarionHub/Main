@@ -1,5 +1,17 @@
 return {
     {
+        Version = "version 1.6",
+        Date = "28 Nov 2026",
+        Changes = {
+            { Type = "Added", Text = "Deep Freeze Event" },
+            { Type = "Added", Text = "Advent Calendar Event" },
+            { Type = "Added", Text = "Auto Claim Ice Monster" },
+            { Type = "Added", Text = "Auto Claim Advent Calendar" },
+            { Type = "Added", Text = "Auto Equip Reward Advent Calendar" },
+            { Type = "Removed", Text = "Thanksgiving Event" },
+        },
+    },
+    {
         Version = "version 1.5",
         Date = "22 Nov 2026",
         Changes = {
